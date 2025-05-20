@@ -10,6 +10,11 @@ namespace Smart_Battle_Arena
     {
         static void Main(string[] args)
         {
+            BattleRobot bot = new BattleRobot();
+            bot.TurnOn();
+            bot.MoveTo("Center");
+            bot.TakeDamage(10);
+
         }
     }
 }
